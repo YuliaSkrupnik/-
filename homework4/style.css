@@ -1,0 +1,35 @@
+.clearfix{
+    clear: both;
+}
+
+.menu{
+    text-align: center;
+    width: 1000px;
+}
+.menu .branch{
+    float: left;
+    padding: 15px;
+    width: 170px; 
+    background: rgba(113, 3, 238, 0.384);
+    color: brown;
+}
+.menu .branch.this{
+    background: rgba(15, 112, 223, 0.377);
+}
+
+.upright{
+    width: 250px;
+}
+
+
+.upright.also{
+
+    width: 210px;
+    padding: 10px 20px;
+    background: rgba(15, 223, 161, 0.377);
+
+}
+
+.upright.also.too{
+    background: skyblue
+}

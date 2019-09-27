@@ -26,7 +26,7 @@
  }
  .calendar-week-item-and{
     float:left;
-    width: 70px;
+    width: 0px;
     text-align: center;
     padding: 15px;
     background: rgba(172, 255, 47, 0.719);
