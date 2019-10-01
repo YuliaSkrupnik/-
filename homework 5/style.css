@@ -1,0 +1,90 @@
+
+.box img{
+    width: 100%;
+    height: 800px;
+    position:  relative;
+}
+.clock img{
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    top: 20px;
+    left: 40%;
+}
+.laptop img{
+    width: 550px;
+    height: 550px;
+    position: absolute;
+    top: 220px;
+    left: 400px;
+}
+.cup img{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 510px;
+    right: 425px;
+}
+.cats img{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 90px;
+    right: 340px;
+}
+.rat img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 25px;
+    right: 90px;
+}
+.phone img{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 430px;
+    left: 50px;
+  
+  
+}
+
+.banana img{
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    top: 560px;
+    left: 300px;   
+}
+.bottle img{
+    width: 180px;
+    height: 300px;
+    position: absolute;
+    top: 340px;
+    left: 260px;
+}
+.cheese img{
+    width: 180px;
+    height: 150px;
+    position: absolute;
+    top: 540px;
+    right: 160px;   
+}
+.pen img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: -80px;
+    right: 660px;
+}
+.cat img{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    bottom: 110px;
+    right: 660px;
+}
+
+
+
+
