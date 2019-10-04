@@ -1,88 +1,93 @@
 
-.box img{
-    width: 100%;
+.box{
+    width: 1000px;
     height: 800px;
-    position:  relative;
+    /*background-repeat: none;*/
+    background: url(fon.jpg);
+    position: relative;
 }
-.clock img{
-    width: 200px;
-    height: 200px;
+.clock{
+    width: 240px;
+    height: 240px;
     position: fixed;
-    top: 20px;
-    left: 40%;
+    top: 40px;
+    left: 180px;
 }
-.laptop img{
-    width: 550px;
-    height: 550px;
+.laptop{
+    width: 400px;
+    height: 450px;
     position: absolute;
-    top: 220px;
-    left: 400px;
+    top: 330px;
+    left: 320px;
+    z-index: 2;
 }
-.cup img{
-    width: 180px;
-    height: 180px;
+.cup{
+    width: 145px;
+    height: 145px;
     position: absolute;
-    top: 510px;
-    right: 425px;
+    top: 580px;
+    left: 680px;
+    z-index: 3;
 }
-.cats img{
+.cats{
     width: 300px;
     height: 300px;
     position: absolute;
-    top: 90px;
-    right: 340px;
+    top: 40px;
+    left: 620px;
 }
-.rat img{
-    width: 100px;
-    height: 100px;
+.rat{
+    width: 80px;
+    height: 80px;
     position: absolute;
-    bottom: 25px;
-    right: 90px;
+    top: 550px;
+    left: 875px;
 }
-.phone img{
-    width: 250px;
-    height: 250px;
+.phone{
+    width: 220px;
+    height: 160px;
     position: absolute;
-    top: 430px;
+    top: 530px;
     left: 50px;
-  
-  
 }
 
-.banana img{
-    width: 220px;
-    height: 220px;
+.banana{
+    width: 160px;
+    height: 160px;
     position: absolute;
-    top: 560px;
-    left: 300px;   
+    top: 470px;
+    left: 680px;
 }
-.bottle img{
-    width: 180px;
-    height: 300px;
+.bottle{
+    width: 130px;
+    height: 240px;
     position: absolute;
-    top: 340px;
-    left: 260px;
+    top: 380px;
+    left: 600px;
+    z-index: 1;
 }
-.cheese img{
-    width: 180px;
-    height: 150px;
-    position: absolute;
-    top: 540px;
-    right: 160px;   
-}
-.pen img{
+.cheese{
     width: 100px;
-    height: 100px;
+    height: 90px;
     position: absolute;
-    bottom: -80px;
-    right: 660px;
+    top: 550px;
+    left: 800px;
+} 
+.pen{
+    width: 60px;
+    height: 90px;
+    position: absolute;
+    top: 670px;
+    left: 600px;
+   
 }
-.cat img{
-    width: 400px;
-    height: 400px;
+.cat{
+    width: 380px;
+    height: 380px;
     position: absolute;
-    bottom: 110px;
-    right: 660px;
+    top: 400px;
+    left: 230px;
+    z-index: 4;
 }
 
 
