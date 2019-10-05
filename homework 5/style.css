@@ -2,6 +2,7 @@
 .box{
     width: 1000px;
     height: 800px;
+    /*background-repeat: none;*/
     background: url(fon.jpg);
     position: relative;
 }
