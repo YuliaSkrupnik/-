@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Marck+Script|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
+
+.center{
+    text-align: center;
+    bottom: 0px;
+    top: 50px;
+    margin: 0;
+    position: relative; 
+}
+.logo{
+    height: 80px;
+    width: 80px;
+}
+
+
+a:link{
+    color:grey;
+}
+
+a:visited{
+    color:white;
+}
+
+a:hover{
+    color:rgb(11, 236, 11); 
+}
+
+a:active{
+    color:violet;
+}
+
+
+.href{
+    text-align: right;
+    margin: right 40px;
+}
+
+
+.wrapper{
+    max-width: 1024px;
+    height: auto ;
+    margin: 0 auto;
+    background:whitesmoke;
+}
+
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    background: rgb(90, 57, 80);
+}
+.menu-item{
+    float: left;
+    padding: 10px 60px;
+}
+
+.clear{
+    clear: both;
+}
+
+.left-panel{
+    height: 600px;
+    float: left;
+}
+
+
+.upright{
+    width: 210px;
+    padding: 10px 20px;
+    background: rgb(90, 57, 80);
+    
+}
+
+.picture{
+    
+    width: 300px;
+    float: right;
+}
+.text{
+    font-family: Marck+Script;
+    font-weight: 900;
+}
+.list{
+    list-style-position: inside;
+    list-style-type: circle;
+}
+#footer{
+    width: 100px;
+    height: 100px;
+    margin: 30px 30px 10px 30px; 
+    padding: 0px 10px;
+    float: left;
+}
+.footer-menu a:link{
+    color:rgb(53, 52, 52);
+
+}
+.footer-menu a:visited{
+    color:grey;
+}
+.footer-menu a:hover{
+    color:rgb(11, 236, 11);
+}
+.footer-menu a:active{
+    color:violet;
+}
+
+.box{
+    width: 280px;
+    height: 140px;
+    margin: 0px 0px; 
+    padding: 0px 0px;
+    float: left;
+    
+
+}
+.copyright{
+    color:gray;
+   bottom: -100px;
+   position:relative;
+}   
+   
