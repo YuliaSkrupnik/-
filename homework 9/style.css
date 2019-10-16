@@ -1,0 +1,13 @@
+.border{
+    width: 900px;
+    border: 2px solid black;
+}
+.tab{
+    width: 100%;
+    border-collapse: collapse;
+}
+.style{
+     text-align: right;
+}
+
+
