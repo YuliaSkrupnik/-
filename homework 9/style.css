@@ -1,13 +1,108 @@
-.border{
+.tab{
     width: 900px;
+    border: 1px solid black;
+    padding: 3px 1px 1px 2px;
+}
+table{
+    width: 900px;
+    border-collapse: collapse; 
+}
+.row6 :nth-child(1){
+    border-top: 3px solid transparent ;
+}
+tr td{
     border: 2px solid black;
 }
-.tab{
-    width: 100%;
-    border-collapse: collapse;
+thead{
+    text-align: center;
 }
-.style{
-     text-align: right;
+tbody,
+tfoot{
+    vertical-align: text-top;
+}
+.row1,
+.row4{
+    border-top: 3px solid;
+}
+.row9{
+    border-bottom: 3px solid;
 }
 
-
+.row1 :nth-child(4),
+.row2 :nth-child(4),
+.row3 :nth-child(4),
+.row4 :nth-child(4),
+.row5 :nth-child(4),
+.row6 :nth-child(4),
+.row7 :nth-child(4),
+.row8 :nth-child(4),
+.row9 :nth-child(4){
+    border-left: 3px solid black ;
+}
+.row1 :nth-child(2),
+.row2 :nth-child(2),
+.row3 :nth-child(2),
+.row4 :nth-child(2),
+.row5 :nth-child(2),
+.row6 :nth-child(2),
+.row7 :nth-child(2),
+.row8 :nth-child(2),
+.row9 :nth-child(2){
+    border-right-color: transparent;
+}
+.row1 :nth-child(1),
+.row2 :nth-child(1),
+.row3 :nth-child(1),
+.row4 :nth-child(1),
+.row5 :nth-child(1),
+.row6 :nth-child(1),
+.row7 :nth-child(1),
+.row8 :nth-child(1),
+.row9 :nth-child(1){
+    border-right-color: transparent;
+    border-left: 3px solid black;
+}
+.row1 :nth-child(5),
+.row2 :nth-child(7),
+.row3 :nth-child(7),
+.row4 :nth-child(7),
+.row5 :nth-child(7),
+.row6 :nth-child(7),
+.row7 :nth-child(7),
+.row8 :nth-child(7),
+.row9 :nth-child(7){
+    border-right: 3px solid black;
+}
+.row5 :nth-child(n+4),
+.row7 :nth-child(n+4),
+.row9 :nth-child(n+4){
+    padding: 0 0 0 45px;
+}
+.row2 :nth-child(1),
+.row2 :nth-child(2),
+.row2 :nth-child(3),
+.row2 :nth-child(7),
+.row3 :nth-child(n+1),
+.row5 :nth-child(n+1),
+.row7 :nth-child(n+1),
+.row9 :nth-child(n+1){
+    border-top: 3px solid transparent;
+}
+.row4 :nth-child(n+4),
+.row6 :nth-child(n+4),
+.row8 :nth-child(n+4){
+    vertical-align: text-top;
+    padding: 0 0 0 60px;
+}
+.row4 :nth-child(7),
+.row6 :nth-child(7),
+.row8 :nth-child(7){
+    vertical-align: text-top;
+    padding: 0 0 0 25px;
+}
+.row5 :nth-child(7),
+.row7 :nth-child(7),
+.row9 :nth-child(7){
+    vertical-align: text-top;
+    padding: 0 0 0 10px;
+}
