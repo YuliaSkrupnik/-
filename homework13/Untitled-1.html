@@ -8,18 +8,17 @@
 </head>
 <body>
     <div class="content">
-        <form method="post" action="http://nickblack.pro/send.php" enctype="text/plain" autocomplete="on">
+        <form method="post" action="http://nickblack.pro/send.php" autocomplete="on">
             <fieldset>
-                <p><label name="fname">Имя<input type="text" required></label></p>
-                <p><label name="sname">Фамилия<input type="text"></label></p>
-                <p><label name="age">Возраст<input type="number" min="1" max="100"></label></p>
-                <p><label name="mail">Почта:<input type="email"></label></p>
-                <p><label name="bday">Дата рождения <input type="date"></label></p>
-                <p><label name="phone">Тел:<input type="tel" required></label></p>
-                <p><label name="mymail">E-mail<input type="tel"value="uskrupnik@gmail.com" required></label></p>
-
-                        <input type="submit" value="Отослать">
-                    </fieldset>
+                <p><label>Имя<input type="text"name="fname"id="fname"required></label></p>
+                <p><label>Фамилия<input type="text"name="sname"id="sname"></label></p>
+                <p><label>Возраст<input type="number"name="age"id="age"min="1" max="100"></label></p>
+                <p><label>Почта:<input type="email"name="mail"id="mail"></label></p>
+                <p><label>Дата рождения <input type="date"name="bday"id="bday"></label></p>
+                <p><label>Тел:<input type="tel"name="phone"id="phone"required></label></p>
+                <p><label>E-mail<input type="tel"value="uskrupnik@gmail.com"name="mymail"id="mymail"required></label></p>
+                <input type="submit" value="Отослать">
+            </fieldset>
            
         </form>
     </div>
