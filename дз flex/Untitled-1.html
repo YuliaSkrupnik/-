@@ -5,41 +5,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HWflex</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <header id="header">
-            <div class="wrapper">
-                <div class="box">
-                    <a href="#" class="menu-link"></a>
-                    <div class="logo">
-                        <div class="logo-abr">DMT</div>
-                        <div class="logo-text">Design Meets Tech</div>
-                    </div>
-                    <div class="search"><img src="search.png"></div>
+    <div class="wrapper">
+    <header id="header">
+
+        <div class="menu"> 
+            <a href="#" class="menu-link">
+                <div class="icon-burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
-            </div>
-        </header>
-        <section class="content">
-            <div class="wrapper">
-                <div class="box">
-                    <div class="content-item1">1</div>
-                    <div class="content-item2">2</div>
-                    <div class="content-item3">3</div>
-                    <div class="content-item4">4</div>
-                    <div class="content-item5">5</div>
-                    <div class="content-item6">6</div>
-                </div>
-            </div>
-        </section>
+                <span class="text-name">MENU</span>
+            </a>
+        </div>
+
+        <div class="logo">
+            <div class="logo-abr">DMT</div>
+            <div class="logo-text">Design Meets Tech</div>
+        </div>
+
+        <div class="search">
+           <div class="search-name">SEARCH</div> 
+           <div class="img"><img src="search.png"></div>
+        </div>
+
+    </header>
+
+    <section class="content">
+
+        <div class="content-item1">
+            <div class="name">HOME</div>
+            <div class="text-box1">Buster<br> Bulb</div>
+            <div class="text-box2">The first designer<br>
+                            LED bulb, finished<br>
+                            in gold glass.</div>
+            <a href="#" class="button">Read more</a>
+        </div>
+
+        <div class="content-item2">
+            <div class="name">ACCESSORIES</div>
+            <div class="text-box3">Peak</div>
+            <div class="text-box4">A playful pouch<br> with a trick up its<br> sleeve</h4></div>
+                <a href="#" class="button">Read more</a>
+        </div>
+        
+        <div class="content-item3">
+                <div class="text-box8">Good Things</div>
+                <div class="text-box10">...<br>come to those who sign up<br>for our newsletter.</div>
+                
+            <form method="post" action="http://nickblack.pro/send.php" enctype="text/plain" autocomplete="on">
+                <p><label name="mail"><input type="email"value="Your email"></label></p>
+                <input type="submit" value="Subscribe"class="blue">
+            </form>
+            <div class="text-box9">We respect your privacy and we won’t<br> share your information.</div>
+
+        </div>
+
+        <div class="content-item4">
+            <div class="name">CAMERAS</div>
+            <div  class="text-box5">Leica M</div>
+            <a href="#" class="button2">Review</a>
+        </div>
+
+        <div class="content-item5">
+            <div class="name">SOUND</div>
+            <div class="text-box6">Trobla<br>Amplifier</div>
+            <a href="#" class="button2">Review</a>
+        </div>  
+        
+        <div class="content-item6">
+            <div class="name">CAMERAS</div>
+            <div class="text-box6">Leica D-Lux</div>
+            <div class="text-box7">Limited-edition DIesel<br>collaboration</div>
+            <a href="#" class="button">Read more</a>
+        </div>
+
+    </section>
+
         <footer id="footer">
-                <div class="wrapper">
-                    <div class="box">
-                    <div class="copytight">Copytight</div>
-                    <a href="#" class="facebook"><img src="facebook.png"></a>
-                    <a href="#" class="search"><img src="twitter.png"></a>
-                </div>
+
+            <div class="copytight">Copyright DMT</div>
+
+            <div class="social">
+                <a href="#" class="facebook"><img src="facebook.png"></a>
+                <a href="#" class="search"><img src="twitter.png"></a>
             </div>
+           
         </footer>
     </div>
     
