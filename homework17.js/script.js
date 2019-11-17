@@ -1,9 +1,9 @@
 'use strict';
 
 // №1
-let x = 60, y = 60 , z = 3;
+let minute = 60, second = 60 , hour = 3;
 
-console.log( (x*y)*z); 
+console.log( ( minute * second )* hour); 
 
 
 // №2
@@ -17,24 +17,24 @@ num *= 5;
 
 num /= 7;
 
-num += 1;
+num ++;
 
-num -= 1;
+num --;
 
 alert(num);
 
 
 
 // №3
-let i = 10, f = 2 , g = 5;
+let a = 10, b = 2 , c = 5;
 
-console.log( i + f + g );
+console.log( a + b + c );
 
 
 // №4
-let a = 17, b = 10;
+ a = 17, b = 10;
 
-let c = a - b;
+c = a - b;
 
 let d = 7;
 
