@@ -1,8 +1,8 @@
 'use strict';
 // №1
-let d ;
+let a ;
 
-if (d ==='1'){
+if ( a ==='1'){
     console.log('Верно');
 }
 else{
@@ -10,6 +10,7 @@ else{
 }
 
 // №2
+
 
 let item = false;
 
@@ -20,15 +21,13 @@ else{
     console.log(' Не верно');
 }
 
-console.log( item == false); 
-console.log( item == true); 
+
+item = (item !=true) ? 'Верно': 'Не верно';
+console.log(item);
 
 
-
-// №3
-let c ;
-
-if (c > 0 && c < 4){
+//#3
+if (a > 0 && a < 4){
     console.log('Верно');
 }
 else{
@@ -36,29 +35,36 @@ else{
 }
 
  // №4
-let a ;
-let b ;
 
-if (a > 3 || a < 12){
-    console.log('Верно');
-}
-else if(b >= 7 || b < 15 ){
+
+let b ;
+a = 5; b =10;
+
+if (a > 3 && a < 12 || b >= 7 && b < 15){
     console.log('Верно');
 }
 else{
     console.log(' Не верно');
 }
 
-// №5
-let month;
-month = '4';
 
-if(month < 4 ){
+// №5
+let month = prompt( 'введите месяц рождения',' ');
+
+
+if(month == 12 || month <= 2){
     console.log('Зима');
-}else if(month > 3 && month < 7 ){
+
+
+}else if(month == 3 || month <= 5){
     console.log('Весна');
-}else if(month > 6 && month < 10){
+    
+}else if(month == 5|| month <= 8){
     console.log('Лето');
-}else{
+
+}else if(month == 9|| month <= 11){
     console.log('Осень');
+
+}else{
+    console.log('Месяц введен не верно!');
 }
