@@ -52,6 +52,24 @@ function min(a, b){
 
 console.log( min( 9,9 ) );
 
+/*
 
+// № 4 
+function min(a, b){
+  if (a < b) 
+    return a;
+}else if(a > b)
+ return b;
+else{
+  return false;
+  }
 
+console.log( min( 9,9 ) );*/
 
+function min(a, b) {
+  if (a < b) {
+    return a;
+  } else (a > b) {
+    return b;
+  }else{ 'значения равны'}
+}
