@@ -40,22 +40,9 @@ switch (value){
 } 
 
 
-/*
-// № 4 
-function min(a, b) {
-  if (a < b) {
-    return a;
-  } else if{ 
-    return b;
-  } else {
-    return false;
-  }
-}
-console.log( min(7,4));
-*/
 
 // № 4 
-function min(a, b) {
+function min(a, b){
   if (a < b) 
     return a;
   if (a > b) 
@@ -63,7 +50,7 @@ function min(a, b) {
     return false;
   }
 
-console.log( min( 9 , 9) );
+console.log( min( 9,9 ) );
 
 
 
