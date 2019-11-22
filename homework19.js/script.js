@@ -4,7 +4,7 @@
 
 function isNumberInRange(n){
   if (n> 0 && n < 10){
-    return (true);
+    return true;
   }else{
     return false;
   }
@@ -40,20 +40,30 @@ switch (value){
 } 
 
 
-
+/*
 // № 4 
 function min(a, b) {
   if (a < b) {
     return a;
-  } else {
+  } else if{ 
     return b;
+  } else {
+    return false;
   }
 }
 console.log( min(7,4));
+*/
 
+// № 4 
+function min(a, b) {
+  if (a < b) 
+    return a;
+  if (a > b) 
+    return b;
+    return false;
+  }
 
-
-
+console.log( min( 9 , 9) );
 
 
 
