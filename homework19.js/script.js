@@ -41,7 +41,7 @@ switch (value){
 
 
 
-// № 4 
+// № 4 (a)
 function min(a, b){
   if (a < b) 
     return a;
@@ -52,24 +52,11 @@ function min(a, b){
 
 console.log( min( 9,9 ) );
 
-/*
-
-// № 4 
-function min(a, b){
-  if (a < b) 
-    return a;
-}else if(a > b)
- return b;
-else{
-  return false;
-  }
-
-console.log( min( 9,9 ) );*/
-
+// № 4(b)
 function min(a, b) {
-  if (a < b) {
+   if (a < b) {
     return a;
-  } else (a > b) {
+  } else if (a > b) {
     return b;
-  }else{ 'значения равны'}
+  }else{ return 'false'}
 }
