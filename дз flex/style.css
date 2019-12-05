@@ -3,6 +3,7 @@
 body{
     background:#3e3b4a;
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
 
 a{
@@ -44,6 +45,7 @@ header{
 .copytight{
     padding: 35px 0;
     color: #898691;
+    font-style:bold;
 }
 
 .logo{
@@ -94,6 +96,7 @@ header{
     display: flex;
     flex-direction: row;
     flex-wrap:wrap;
+    justify-content:space-between;
 }
 
 .text-box1{
@@ -101,14 +104,13 @@ header{
     font-size: 72px;
     font-weight: 700;
     color:white;
-    line-height: 75px;
+    line-height: 76px;
 }
 .text-box2{
     margin: 0;
     font-size: 36px;
     font-weight: 400;
     color:white;
-    padding: 0 0 98px 0;
     line-height: 40px;
 }
 .text-box3{
@@ -125,7 +127,6 @@ header{
     font-weight: 400;
     font-style: normal;
     color:white;
-    padding: 0 0 179px 0;
 }
 
 .text-box5,
@@ -134,14 +135,15 @@ header{
     font-size: 36px;
     font-weight: 600;
     color:white;
+    font-style:bold;
+
 }
 
 .text-box7{
     margin: 0;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 100;
     color:white;
-    padding: 0 0 190px 0;
 }
 .text-box8{
     margin: 0;
@@ -166,25 +168,23 @@ header{
 }
 
 .content-item1{
-    width: 1020px;
     height: 430px;
     background: url(lemps.png) no-repeat;
     padding:40px 0 40px 40px;
     margin: 0 0 20px 0;
     display: flex;
     flex-direction:column;
-    justify-content: flex-start;
+    flex-basis: 100%;
 }
 
 .content-item2{
-    width: 582px;
     height: 405px;
     background:#71b6c3 url(headphones.png) no-repeat right top;
     padding:  40px 0 40px 40px;
-    margin: 0 20px 20px 0; 
+    margin: 0 0px 20px 0; 
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    flex-basis: 57%;
 }
 
 .content-item3{
@@ -198,21 +198,20 @@ header{
     justify-content:space-between;
     text-align: center;
     padding: 40px;
+    flex-basis: 29.5%;
 }
 
 .content-item4{
-    width: 180px;
     height: 340px;
     background: url(black\ cam.png) no-repeat;
     padding: 40px;
     display:flex;
     flex-direction:column;
     align-items: center;
-    justify-content:space-between;
+    flex-basis: 17%;
 }
 
 .content-item5{
-    width: 180px;
     height: 340px;
     background: url(Vector_Smart.png) no-repeat;
     margin: 0 0 0 20px;
@@ -221,18 +220,18 @@ header{
     flex-direction:column;
     align-items:  center;
     justify-content:space-between;
+    flex-basis: 17%;
     text-align: center;
 }
 
 .content-item6{
-    width: 380px;
     height: 340px;
     background: #1ab467 url(Vector_Smart_Object222.png) no-repeat right bottom;
-    margin: 0 0 0 20px;
     padding: 40px;
     display: flex;
     flex-direction:column;
-    justify-content:flex-start;
+    flex-basis: 38%;
+    justify-content:space-between;
 }
 
 .button{
@@ -245,6 +244,7 @@ header{
     font-style: normal;
     width: 126px;
     padding: 5px 0;
+    margin-top: auto ;
  
 }
 .button2{
@@ -256,6 +256,7 @@ header{
     font-weight: 900;
     padding: 5px 0;
     width: 94px;
+    margin-top: auto;
    
 }
 
