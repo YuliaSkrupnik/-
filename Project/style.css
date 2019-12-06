@@ -189,10 +189,8 @@ a:hover{
     letter-spacing: 35px;
     text-align: center;
     color:#ffffff;
-    position: absolute;
+    position: relative;
     top: 350px;
-    left:0;
-    right: 0;
 }
 .text a{
     font-family:'ProximaNova-Light';
@@ -200,10 +198,8 @@ a:hover{
     letter-spacing: 10px;
     text-align: center;
     color:#ffffff;
-    position: absolute;
-    top: 450px;
-    left:0;
-    right: 0;
+    position: relative;
+    top: 380px;
 }
 .cover{
     position: relative;
