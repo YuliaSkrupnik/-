@@ -40,18 +40,26 @@ a:hover{
     letter-spacing:5px;
     margin-right: 75px;
 }
+.header__inner{
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    height:350px ;
+}
 .header__center-box{
-    margin: 270px auto 0;
-    text-align: center;
-    position: relative;
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    height: 685px;
 }
 .header__center-box-title{
     font-size: 60px;
     line-height: 70px;
     color: #fff;
     font-family: 'ProximaNova-Light';
-    text-align: center;
-    letter-spacing: 30px;
+    letter-spacing: 35px; 
+    margin: 0 0 15px 0;
+    align-self:center;
 }
 .header__center-box-text{
     font-size: 30px;
@@ -59,28 +67,29 @@ a:hover{
     letter-spacing: 20px;
     color: #f84545;
     font-family:'ProximaNova-Bold';
+    align-self:center
 }
 .arrow{
-    position: absolute;
-    top: 360px;
-    left: 46%;
+    align-self:center;
 }
+
 
 
 .main__content{
     display: flex;
     flex-direction:row;
-    justify-content:space-evenly;
+    justify-content:space-between;
     flex-wrap:wrap;
+    padding-top: 85px;
+    padding-bottom: 80px;
 }
 .item1{
     display: flex;
     flex-direction:column;
     justify-content:flex-end;
-    width: 65%;
+    flex-basis: 65%;
     height: 777px;
-    background: url(img/item1.png) no-repeat;
-    margin: 60px 60px 55px 0;
+    background: url(img/item1.png) no-repeat center center;
     padding: 0 0 35px 40px;
 }
 .item2{
@@ -88,8 +97,8 @@ a:hover{
     flex-direction:column;
     justify-content:flex-end;
     height: 360px;
-    background: url(img/item2.png) no-repeat;
-    margin: 60px 0 55px 0;
+    background: url(img/item2.png) no-repeat center center;
+    margin: 0 0 57px 0;
     padding: 0 0 30px 40px;
 }
 .item3{
@@ -97,40 +106,41 @@ a:hover{
     flex-direction:column;
     justify-content:flex-end;
     height: 360px;
-    background: url(img/item3.png) no-repeat;
+    background: url(img/item3.png) no-repeat center center;
     padding: 0 0 30px 40px;
 }
 .item4{
     display: flex;
     flex-direction:column;
     justify-content:flex-end;
-    width:30% ;
+    flex-basis:30% ;
     height: 580px;
-    background: url(img/item4.png) no-repeat;
-    margin:0 60px 0 0;
+    background: url(img/item4.png) no-repeat center center;
+    margin-top:55px;
     padding: 0 0 30px 40px;
 }
 .item5{
     display: flex;
     flex-direction:column;
     justify-content:flex-end;
-    width:30%;
+    flex-basis:30%;
     height:580px ;
-    background: url(img/item5.png) no-repeat;
-    margin: 0 60px 0 0;
+    background: url(img/item5.png) no-repeat center center;
+    margin-top:55px;
     padding: 0 0 30px 40px;
 }
 .item6{
     display: flex;
     flex-direction:column;
     justify-content:flex-end;
-    width:30% ;
+    flex-basis:30% ;
     height: 580px;
-    background: url(img/item6.png) no-repeat;
+    background: url(img/item6.png) no-repeat center center;
     padding: 0 0 30px 40px;
+    margin-top: 55px;
 }
 .box__item{
-    width: 30%;
+    flex-basis: 30%;
 }
 .item1__img,
 .item2__img,
@@ -161,15 +171,25 @@ a:hover{
 .item7__bottom,
 .item8__bottom{
     width: 25%;
-    display: flex;
     justify-content:center;
-    flex-wrap: wrap;
 }
-
-
+.item1__bottom img,
+.item2__bottom img,
+.item3__bottom img,
+.item4__bottom img,
+.item5__bottom img,
+.item6__bottom img,
+.item7__bottom img,
+.item8__bottom img{
+    width: 100%;
+}
+.poster-box{
+    max-width: 100%;
+    margin: 0 auto;
+}
 .poster{
     position: relative;
-    margin: 60px 0 40px 0;
+    margin:0 0 40px 0;
 }
 .bottom__content{
     display: flex;
@@ -178,7 +198,7 @@ a:hover{
 }
 .background{
     width: 100%;
-    height: 850px;
+    height: 100%;
     position: absolute;
     background: #1a1a1a9c;
     top: 0;
@@ -189,20 +209,28 @@ a:hover{
     letter-spacing: 35px;
     text-align: center;
     color:#ffffff;
-    position: relative;
-    top: 350px;
+    align-self:center;
 }
-.text a{
+.text a.href{
     font-family:'ProximaNova-Light';
     font-size: 30px;
     letter-spacing: 10px;
     text-align: center;
     color:#ffffff;
-    position: relative;
-    top: 380px;
+}
+.text{
+    align-self:center;
+    margin: 40px 0 0 0;
+}
+a.href:hover{
+    color:  #f04848;
 }
 .cover{
-    position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+  width:inherit;
+  height: inherit;
 }
 
 
@@ -221,14 +249,11 @@ a:hover{
 ul,
 li{
     display: flex;
+    align-items: center;
 }
-
-
-
 .copyright{
     margin: 18px 0;
 }
-
 .footer__li a{
     color: #1a1a1a;
     padding: 0 0 0 70px;
@@ -237,7 +262,7 @@ li{
     color:  #f04848;
 }
 .footer__social{
-   margin: 18px 0;
+   margin:  0 25px 0  0;
 }
 .link{
     padding: 15px;
